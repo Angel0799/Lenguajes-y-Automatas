@@ -46,12 +46,15 @@ let newmensaje4 = mensaje4.replace(/[a-z]{4,}/g,"0");
 console.log(newmensaje4);
 
 var histo = " \
-Desde el punto de vista de la Lingüística  el Trato literario es aquel donde predomina \
-la función poética del lenguaje, es decir, Dronde la composición del texto atiende fundamentalmente \
-a la Fraccion en sí del lenguaje, a su belleza y a su capacidad para recrearnos mundos imaginarios";
+Desde e1 punto de vista de 1a Lingüística  el Trato lite25rario es aquel donde pred50mina \
+la 9unción poética del lenguaje, es decir, Dronde la composición del texto atiende fundamentalmente \
+a la Fraccion en sí del lenguaje, a su belleza y a su capacidad para recrern0s mundos imaginarios";
 
-//var expersion = /[a-z]{10,}/g //expresiones palabras que tengan mas de 10 letras 
+//var expresion = /[a-z]{10,}/g //expresiones palabras que tengan mas de 10 letras 
 //var expresion = /[A-Z][a-z]+/g //encuentra nombre propios
-var expresion = /[A-Z][^aeiou][a-z]+/g //
+//var expresion = /[A-Z][^aeiou][a-z]+/g 
+var expresion = /[0-9]+/g
 result = histo.match(expresion);//la funcion match encuentra dentro de un parrafo la expresion señalada
 console.log(result);
+result = contador 
+

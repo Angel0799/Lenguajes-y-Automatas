@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>mi aplicacion con Sockets</title>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="main.js"></script>
+    <style>
+      h1{
+        color: red;
+        text-align: center;
+        background-color: blue;
+        padding: 2px;
+      }
+      #messages{
+        color: black;
+        text-align: center;
+      }
+      #username{
+        color: black;
+        text-align: center;
+      }
+      #texto{
+        color: black;
+        text-align: center;
+      }
+    </style> 
+</head>
+<body>
+      
+    <h1>EJERCICIO INDIVIDUAL</h1>
+    <h1>CHAT</h1>
+    <div id="messages"></div>
+    <br/>
+    <form onsubmit="return addMessage(this)">
+      <input type="text" id="username" placeholder="Tu Nombre" >
+      <input type="text" id="texto" placeholder="Cuéntanos algo...">
+      <input type="submit" value="Enviar!">
+      
+    </form>
+    
+</body>
+</html>
